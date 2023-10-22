@@ -1,0 +1,1 @@
+<img src="../completion-prints/slam2.png" width="200" />

@@ -1,0 +1,5 @@
+wheel degrees of freedom = 3;
+-------------
+j1 = sin(alpha+beta)
+j2 = -cos(alpha+beta)
+j3 = -1*cos(beta) # não foi aceito, embora não tenha outra ideia (pgntar gepeto)

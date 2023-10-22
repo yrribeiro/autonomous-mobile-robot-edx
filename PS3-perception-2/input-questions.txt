@@ -1,0 +1,23 @@
+Problem 1
+Given the information above:
+• Calculate the focal length (in pixels) along X axis.
+• Calculate the focal length (in pixels) along Y axis.
+• And construct the camera intrinsic matrix (K)
+Answer
+Let αx and αy are focal lengths in pixel.
+αx · tan 30◦ = 640/2 px
+αy · tan 22.5◦ = 480/2 px
+Thus, αx = 554.2px, αy = 579.4px
+
+Camera intrinsic matrix is defined as follows:
+K = [[αx 0 u0], [0 αy v0], [0 0 1]]
+K = [[554.2 0 230], [0 579.41 240], [0 0 1]]
+
+Problem 2
+The image point p has pixel coordinates (360, 302). If we translate the camera by the vector
+T = [0.2, 0.0, 0.0]T meters and take another picture, the point appears at image position
+(330, 302). Assuming that the first camera frame acts as the world reference frame, estimate
+the position of point P in 3D coordinates.
+~ question gives the formula, is just replacing values and transposing matrices...
+
+[Xw , Yw , Zw ]T = [0.266, 0.395, 3.69]T

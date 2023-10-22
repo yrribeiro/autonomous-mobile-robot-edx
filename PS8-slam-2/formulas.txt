@@ -1,0 +1,12 @@
+Prediction step
+x̂t = f (xt−1 , ut )
+P̂t = Fx Pt−1 Fx T + Fu Qt Fu T
+
+Measurement step
+ẑi = hi (x̂t , yi )
+S = HP̂t HT + R
+
+Update step
+Kt = P̂t HS−1
+xt = x̂t + Kt (z0:n − ẑ0:n )
+Pt = P̂t − Kt SKt T

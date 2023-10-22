@@ -1,0 +1,18 @@
+1 - The belief in the ACT stage is based on wheel odometry. The movement of the robot is integrated to calculate the current position. The errors are integrated over time and that's why we expect the uncertainty to grow over time and distance.
+The initial position  is represented by a Dirac delta function as we are 100% certain about the robot's initial position.
+-------------------
+
+2 - Robots use proprioceptive sensors to collect wheel odometry information, for example wheel encoders or motor encoders.
+-------------------
+
+3- Let's eliminate the wrong answers first.
+The answer with a Dirac delta function is wrong because the rangefinder measurements have a non-zero uncertainty (as it was given in the task description). Therefore, the PDF (probability density function) of the  should have larger than zero variance.
+Secondly, the  shouldn't be shifted towards  as we are looking for a measurement only belief, before the fusion with odometry information. The  mean should be corresponding to the distance .
+The remaining answer is correct, as the belief PDF has a non-zero variance and is located in accordance with the sensor measurement.
+-------------------
+
+4 - The robot was using a laser rangefinder which is an exteroceptive sensor.
+-------------------
+
+5 - The correct answer must fulfill two conditions. First of all, the estimate of  must be located between odometry and perceptive beliefs (intuitively, a fused value of two estimates should be located somewhere between them).
+Secondly, we fuse two estimates with non-zero covariances. The resulting probability density function should have a variance smaller than any of the input estimates.

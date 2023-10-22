@@ -1,0 +1,1 @@
+<img src="../completion-prints/localization1.png" width="200" />
