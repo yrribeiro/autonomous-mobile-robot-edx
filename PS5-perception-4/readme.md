@@ -1,1 +1,1 @@
-<img src="../completion-prints/perception4.png" width="200" />
+<img src="../completion-prints/perception4.png" width="500" />

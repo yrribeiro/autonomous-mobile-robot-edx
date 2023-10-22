@@ -1,1 +1,1 @@
-<img src="../completion-prints/localization1.png" width="200" />
+<img src="../completion-prints/localization1.png" width="500" />

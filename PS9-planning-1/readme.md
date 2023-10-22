@@ -1,1 +1,1 @@
-<img src="../completion-prints/planning1.png" width="200" />
+<img src="../completion-prints/planning1.png" width="500" />

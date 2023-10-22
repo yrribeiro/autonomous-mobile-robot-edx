@@ -1,1 +1,1 @@
-<img src="../completion-prints/mobile-robot-kinematics.png" width="200" />
+<img src="../completion-prints/mobile-robot-kinematics.png" width="500" />
