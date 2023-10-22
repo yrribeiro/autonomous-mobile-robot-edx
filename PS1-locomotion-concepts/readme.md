@@ -1,1 +1,1 @@
-<img src="../completion-prints/locomotion-concepts.png" width="200" />
+<img src="../completion-prints/locomotion-concepts.png" width="500" />
